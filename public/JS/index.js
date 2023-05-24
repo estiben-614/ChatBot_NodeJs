@@ -4,7 +4,7 @@ const btnEnviar=document.querySelector('#btnEnviar')
 const mensajes=document.querySelector('#mensajes')
 const escribiendo=document.querySelector('#escribiendo')
 
-const token="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"
+const token="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"
 
 //Mensaje de bienvenida
 mensajes.innerHTML+='<li><strong>CHAT BOT: </strong>¡Hola! Mi nombre es CHAT BOT, tu asistente virtual. Estoy aquí para ayudarte en todo lo que necesites. Si tienes alguna pregunta o necesitas alguna asistencia, no dudes en escribirme. ¡Estoy aquí para ayudarte!</li>'
@@ -26,7 +26,7 @@ btnEnviar.addEventListener('click',()=>{
             method:'POST',
             headers:{
                 'Content-Type':'application/json', // Tipo de contenido de la solicitud
-                'Authorization': "Bearer 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" // Encabezados adicionales, como el token de autorización
+                'Authorization': "Bearer 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" // Encabezados adicionales, como el token de autorización
             },
             body:JSON.stringify({
                 "model":"gpt-3.5-turbo",
