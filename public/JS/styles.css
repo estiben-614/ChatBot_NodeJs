@@ -1,0 +1,80 @@
+/* Estilos generales */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color:#04386d;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+ #escribiendo{
+    margin-left: 45px;
+    display: none;
+ }
+  
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+  }
+  
+  #container {
+    max-height: 70vh;
+    width: 50vw;
+    overflow: auto;
+    margin: 5px auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 1);
+  }
+  
+  /* Estilos de los mensajes */
+  #mensajes {
+    list-style: none;
+    margin-top: 15px;
+    
+  }
+
+  #mensajes li {
+    text-align: justify;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0;
+  }
+  
+  
+  
+  /* Estilos del campo de entrada y botón */
+  #mensaje {
+    margin-top: 40px;
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #btnEnviar {
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 45%;
+  }
+  
+  #btnEnviar:hover {
+    background-color: #0056b3;
+  }
+  
